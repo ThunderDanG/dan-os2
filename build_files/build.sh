@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox system76-keyboard-configurator 
+dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox system76-keyboard-configurator cosmic-term gnome-tweaks 
 
 # Use a COPR Example:
 #
