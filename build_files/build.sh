@@ -13,7 +13,7 @@ set -ouex pipefail
 dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox system76-keyboard-configurator cosmic-term gnome-tweaks 
 
 # codecs install
-dnf5 install gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-libav
+dnf5 install -y gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-libav
 
 # Use a COPR Example:
 #
