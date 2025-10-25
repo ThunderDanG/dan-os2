@@ -12,6 +12,9 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox system76-keyboard-configurator cosmic-term gnome-tweaks 
 
+# codecs install
+dnf5 install gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-libav
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
