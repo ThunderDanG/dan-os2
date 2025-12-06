@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox cosmic-term gnome-tweaks 
+dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox cosmic-term cosmic-edit gnome-tweaks git-delta
 
 # codecs install
 dnf5 install -y gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-libav
