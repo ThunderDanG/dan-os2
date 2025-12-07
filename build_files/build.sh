@@ -16,7 +16,7 @@ dnf5 install -y radeontop radeontool amdsmi
 # codecs install
 dnf5 install -y gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-libav
 
-dnf5 install -y openrgb
+#dnf5 install -y openrgb
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
