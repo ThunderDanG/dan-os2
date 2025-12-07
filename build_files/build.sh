@@ -12,7 +12,7 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox cosmic-term cosmic-edit gnome-tweaks git-delta
 # AMD GPU stuff
-dnf5 install -y radeontop radeontool radeon-profile radeon-profile-daemon
+dnf5 install -y radeontop radeontool amdsmi
 # codecs install
 dnf5 install -y gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-libav
 
