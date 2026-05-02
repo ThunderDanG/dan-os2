@@ -9,13 +9,13 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-# this installs a package from fedora repos
+# Install useful utilities
 dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox cosmic-term cosmic-edit gnome-tweaks git-delta
 # AMD GPU stuff
 dnf5 install -y radeontop radeontool amdsmi
 # codecs install
 dnf5 install -y gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-libav
-
+# For better Steam support
 dnf5 install -y steam-devices
 # dnf5 install -y openrgb
 # Use a COPR Example:
