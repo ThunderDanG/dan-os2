@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # Install useful utilities
-dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie procs texstudio distrobox cosmic-term cosmic-edit gnome-tweaks git-delta
+dnf5 install -y tmux fish neovim duf fzf lsd fd-find httpie texstudio distrobox cosmic-term cosmic-edit gnome-tweaks git-delta
 # AMD GPU stuff
 dnf5 install -y radeontop radeontool amdsmi
 # codecs install
